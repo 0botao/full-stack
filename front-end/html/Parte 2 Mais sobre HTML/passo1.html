@@ -1,0 +1,88 @@
+1. Tags Semânticas do HTML5
+As tags semânticas ajudam a organizar o conteúdo da página de forma mais clara tanto para desenvolvedores quanto para motores de busca.
+Aqui estão algumas das mais comuns: 
+
+
+<header>: Representa o cabeçalho da página ou de uma seção.
+<nav>: Define uma seção de navegação que geralmente contém links para outras partes do site.
+<section>: Usada para agrupar conteúdo relacionado dentro de uma página.
+<article>: Representa um conteúdo independente, como uma postagem de blog ou um artigo de notícias.
+<aside>: Conteúdo relacionado ao principal, mas que pode ser considerado complementar, como uma barra lateral.
+<footer>: Representa o rodapé da página ou de uma seção.
+2. Formulários em HTML
+Os formulários são essenciais para interações com os usuários, como o envio de informações ou preenchimento de cadastros. Aqui estão algumas tags básicas de formulários:
+
+<form>: Contém todos os elementos do formulário.
+<input>: Campo de entrada de dados.
+Tipos comuns: text, password, email, submit.
+<label>: Rótulo para um campo de formulário, associado ao campo pelo atributo for.
+<textarea>: Área de texto para entrada de múltiplas linhas.
+<button>: Botão para submissão ou outras ações.
+3. Tabelas em HTML
+As tabelas são usadas para exibir dados tabulares. Algumas tags importantes são:
+
+<table>: Define o início e o fim de uma tabela.
+<tr>: Define uma linha na tabela.
+<td>: Define uma célula de dados.
+<th>: Define uma célula de cabeçalho.
+<thead>, <tbody>, <tfoot>: Estruturam a tabela em cabeçalho, corpo e rodapé.
+Exercício Prático
+Vamos criar um exemplo que combine esses conceitos:
+
+Criando uma Página de Perfil
+Crie um arquivo chamado perfil.html.
+
+Estruture o documento usando tags semânticas:
+
+html
+Copiar código
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Usuário</title>
+</head>
+<body>
+    <header>
+        <h1>Perfil do Usuário</h1>
+    </header>
+    
+    <section>
+        <h2>Sobre Mim</h2>
+        <p>Meu nome é Mestre dos Magos, e eu sou apaixonado por tecnologia.</p>
+    </section>
+    
+    <section>
+        <h2>Meus Interesses</h2>
+        <ul>
+            <li>Desenvolvimento Web</li>
+            <li>Inteligência Artificial</li>
+            <li>Jogos</li>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>Contato</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Mestre dos Magos</p>
+    </footer>
+</body>
+</html>
+Próximos Passos
+Agora, experimente criar essa página e veja como os elementos funcionam juntos. Se estiver pronto, podemos discutir o próximo passo, que pode ser 
+estilizar essa página com CSS ou explorar mais sobre formulários e tabelas. Como gostaria de prosseguir?
